@@ -40,12 +40,16 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.static_framework = true
   s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Firebase/Core', '~> 6.13.0'
+  s.dependency 'Firebase/Firestore', '~> 6.13.0'
   s.dependency 'Firebase/RemoteConfig', '~> 6.13.0'
   s.dependency 'Firebase/Storage', '~> 6.13.0'
   s.dependency 'Firebase/Database', '~> 6.13.0'
   s.dependency 'Firebase/Analytics', '~> 6.13.0'
   s.dependency 'Firebase/Auth', '~> 6.13.0'
   s.dependency 'Firebase/Messaging', '~> 6.13.0'
+  s.dependency 'GoogleSignIn'
+  s.dependency 'FBSDKLoginKit'
   s.dependency 'RxSwift', '~> 5.0.1'
   s.dependency 'RxOptional', '~> 4.1.0'
 end
